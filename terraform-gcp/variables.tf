@@ -31,7 +31,7 @@ variable "model_id" {
 variable "machine_type" {
   description = "GCE Machine Type for the GPU node"
   type        = string
-  default     = "n1-standard-4"
+  default     = "n2-standard-8"
 }
 
 variable "gpu_type" {
